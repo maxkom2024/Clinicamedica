@@ -1,0 +1,43 @@
+/*Estilizar el header y el footer, aplicando un color de fondo
+ y cambiando el estilo de la fuente con las propiedades vistas.
+*/
+header{
+    color: rgb(8, 161, 208);
+    text-align: center;
+}
+#texto{
+    color: rgba(46, 146, 186, 0.816);
+}
+img{
+    width: 100px;
+}
+h2{
+    color: rgba(20, 130, 161, 0.965);
+}
+nav {
+    background-color: #f8f8f8; /* Color de fondo para la navegación */
+    padding: 10px;
+    text-align: center;
+}
+ul {
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0; /* Eliminar el padding por defecto */
+    margin: 0; /* Eliminar el margen por defecto */
+}
+li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espaciado entre los elementos de la lista */
+
+}
+a {
+    text-decoration: none; /* Eliminar el subrayado de los enlaces */
+    color: rgba(20, 130, 161, 0.965); /* Color del texto de los enlaces */
+}
+a:hover {
+    color: #007BFF; /* Color del texto al pasar el ratón */
+}
+footer{
+    background-color: rgb(191, 232, 248);
+    text-align: center;
+    font-size: 10px;
+}
